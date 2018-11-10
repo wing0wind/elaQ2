@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1878790D2196FD2100A8AAC9 /* NetWorkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878790C2196FD2100A8AAC9 /* NetWorkUtil.swift */; };
+		1878790E2196FD2100A8AAC9 /* NetWorkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878790C2196FD2100A8AAC9 /* NetWorkUtil.swift */; };
+		1878790F2196FD2100A8AAC9 /* NetWorkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878790C2196FD2100A8AAC9 /* NetWorkUtil.swift */; };
+		187879112197025000A8AAC9 /* elaqTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187879102197025000A8AAC9 /* elaqTableViewController.swift */; };
+		187879122197025000A8AAC9 /* elaqTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187879102197025000A8AAC9 /* elaqTableViewController.swift */; };
+		187879132197025000A8AAC9 /* elaqTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187879102197025000A8AAC9 /* elaqTableViewController.swift */; };
+		187E4444219727A6006DEA07 /* MenuInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E4443219727A6006DEA07 /* MenuInfoCell.xib */; };
+		187E4446219727C3006DEA07 /* MenuInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E4445219727C3006DEA07 /* MenuInfoCell.swift */; };
+		187E444C219737ED006DEA07 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E444B219737ED006DEA07 /* InputViewController.swift */; };
+		18CE9C902196F1CC00300CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE9C8F2196F1CC00300CA4 /* AppDelegate.swift */; };
+		18CE9C992196F1CC00300CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CE9C972196F1CC00300CA4 /* Main.storyboard */; };
+		18CE9C9B2196F1CE00300CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE9C9A2196F1CE00300CA4 /* Assets.xcassets */; };
+		18CE9C9E2196F1CE00300CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CE9C9C2196F1CE00300CA4 /* LaunchScreen.storyboard */; };
+		18CE9CA92196F1CE00300CA4 /* elaQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE9CA82196F1CE00300CA4 /* elaQTests.swift */; };
+		18CE9CB42196F1CE00300CA4 /* elaQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE9CB32196F1CE00300CA4 /* elaQUITests.swift */; };
+		C54C339AF8531B13848614D4 /* Pods_elaQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B009F13C3ECF20666AF452D7 /* Pods_elaQ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CE9CA52196F1CE00300CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CE9C842196F1CC00300CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE9C8B2196F1CC00300CA4;
+			remoteInfo = elaQ;
+		};
+		18CE9CB02196F1CE00300CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CE9C842196F1CC00300CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE9C8B2196F1CC00300CA4;
+			remoteInfo = elaQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1878790C2196FD2100A8AAC9 /* NetWorkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkUtil.swift; sourceTree = "<group>"; };
+		187879102197025000A8AAC9 /* elaqTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elaqTableViewController.swift; sourceTree = "<group>"; };
+		187E4443219727A6006DEA07 /* MenuInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuInfoCell.xib; sourceTree = "<group>"; };
+		187E4445219727C3006DEA07 /* MenuInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuInfoCell.swift; sourceTree = "<group>"; };
+		187E444B219737ED006DEA07 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		18CE9C8C2196F1CC00300CA4 /* elaQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elaQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE9C8F2196F1CC00300CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CE9C982196F1CC00300CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CE9C9A2196F1CE00300CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CE9C9D2196F1CE00300CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CE9C9F2196F1CE00300CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CE9CA42196F1CE00300CA4 /* elaQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elaQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE9CA82196F1CE00300CA4 /* elaQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elaQTests.swift; sourceTree = "<group>"; };
+		18CE9CAA2196F1CE00300CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CE9CAF2196F1CE00300CA4 /* elaQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elaQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE9CB32196F1CE00300CA4 /* elaQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elaQUITests.swift; sourceTree = "<group>"; };
+		18CE9CB52196F1CE00300CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208AB683B9713F02EBD09EC6 /* Pods-elaQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elaQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-elaQ/Pods-elaQ.release.xcconfig"; sourceTree = "<group>"; };
+		35919F2355728E6EEA8A06A6 /* Pods-elaQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elaQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-elaQ/Pods-elaQ.debug.xcconfig"; sourceTree = "<group>"; };
+		B009F13C3ECF20666AF452D7 /* Pods_elaQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_elaQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CE9C892196F1CC00300CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54C339AF8531B13848614D4 /* Pods_elaQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE9CA12196F1CE00300CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE9CAC2196F1CE00300CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D5BB5F2E4430A41A50BAE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B009F13C3ECF20666AF452D7 /* Pods_elaQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18CE9C832196F1CC00300CA4 = {
+			isa = PBXGroup;
+			children = (
+				18CE9C8E2196F1CC00300CA4 /* elaQ */,
+				18CE9CA72196F1CE00300CA4 /* elaQTests */,
+				18CE9CB22196F1CE00300CA4 /* elaQUITests */,
+				18CE9C8D2196F1CC00300CA4 /* Products */,
+				DDE2DE1A0331AE25C9BF9589 /* Pods */,
+				02D5BB5F2E4430A41A50BAE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18CE9C8D2196F1CC00300CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CE9C8C2196F1CC00300CA4 /* elaQ.app */,
+				18CE9CA42196F1CE00300CA4 /* elaQTests.xctest */,
+				18CE9CAF2196F1CE00300CA4 /* elaQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CE9C8E2196F1CC00300CA4 /* elaQ */ = {
+			isa = PBXGroup;
+			children = (
+				18CE9C8F2196F1CC00300CA4 /* AppDelegate.swift */,
+				187E444B219737ED006DEA07 /* InputViewController.swift */,
+				18CE9C972196F1CC00300CA4 /* Main.storyboard */,
+				18CE9C9A2196F1CE00300CA4 /* Assets.xcassets */,
+				18CE9C9C2196F1CE00300CA4 /* LaunchScreen.storyboard */,
+				18CE9C9F2196F1CE00300CA4 /* Info.plist */,
+				187E4443219727A6006DEA07 /* MenuInfoCell.xib */,
+				187E4445219727C3006DEA07 /* MenuInfoCell.swift */,
+				1878790C2196FD2100A8AAC9 /* NetWorkUtil.swift */,
+				187879102197025000A8AAC9 /* elaqTableViewController.swift */,
+			);
+			path = elaQ;
+			sourceTree = "<group>";
+		};
+		18CE9CA72196F1CE00300CA4 /* elaQTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CE9CA82196F1CE00300CA4 /* elaQTests.swift */,
+				18CE9CAA2196F1CE00300CA4 /* Info.plist */,
+			);
+			path = elaQTests;
+			sourceTree = "<group>";
+		};
+		18CE9CB22196F1CE00300CA4 /* elaQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CE9CB32196F1CE00300CA4 /* elaQUITests.swift */,
+				18CE9CB52196F1CE00300CA4 /* Info.plist */,
+			);
+			path = elaQUITests;
+			sourceTree = "<group>";
+		};
+		DDE2DE1A0331AE25C9BF9589 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35919F2355728E6EEA8A06A6 /* Pods-elaQ.debug.xcconfig */,
+				208AB683B9713F02EBD09EC6 /* Pods-elaQ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CE9C8B2196F1CC00300CA4 /* elaQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE9CB82196F1CE00300CA4 /* Build configuration list for PBXNativeTarget "elaQ" */;
+			buildPhases = (
+				9FF5A90395E4428D3352742A /* [CP] Check Pods Manifest.lock */,
+				18CE9C882196F1CC00300CA4 /* Sources */,
+				18CE9C892196F1CC00300CA4 /* Frameworks */,
+				18CE9C8A2196F1CC00300CA4 /* Resources */,
+				654B09261090857F6CEB878D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = elaQ;
+			productName = elaQ;
+			productReference = 18CE9C8C2196F1CC00300CA4 /* elaQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CE9CA32196F1CE00300CA4 /* elaQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE9CBB2196F1CE00300CA4 /* Build configuration list for PBXNativeTarget "elaQTests" */;
+			buildPhases = (
+				18CE9CA02196F1CE00300CA4 /* Sources */,
+				18CE9CA12196F1CE00300CA4 /* Frameworks */,
+				18CE9CA22196F1CE00300CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CE9CA62196F1CE00300CA4 /* PBXTargetDependency */,
+			);
+			name = elaQTests;
+			productName = elaQTests;
+			productReference = 18CE9CA42196F1CE00300CA4 /* elaQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CE9CAE2196F1CE00300CA4 /* elaQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE9CBE2196F1CE00300CA4 /* Build configuration list for PBXNativeTarget "elaQUITests" */;
+			buildPhases = (
+				18CE9CAB2196F1CE00300CA4 /* Sources */,
+				18CE9CAC2196F1CE00300CA4 /* Frameworks */,
+				18CE9CAD2196F1CE00300CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CE9CB12196F1CE00300CA4 /* PBXTargetDependency */,
+			);
+			name = elaQUITests;
+			productName = elaQUITests;
+			productReference = 18CE9CAF2196F1CE00300CA4 /* elaQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CE9C842196F1CC00300CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					18CE9C8B2196F1CC00300CA4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					18CE9CA32196F1CE00300CA4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 18CE9C8B2196F1CC00300CA4;
+					};
+					18CE9CAE2196F1CE00300CA4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 18CE9C8B2196F1CC00300CA4;
+					};
+				};
+			};
+			buildConfigurationList = 18CE9C872196F1CC00300CA4 /* Build configuration list for PBXProject "elaQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CE9C832196F1CC00300CA4;
+			productRefGroup = 18CE9C8D2196F1CC00300CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CE9C8B2196F1CC00300CA4 /* elaQ */,
+				18CE9CA32196F1CE00300CA4 /* elaQTests */,
+				18CE9CAE2196F1CE00300CA4 /* elaQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CE9C8A2196F1CC00300CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE9C9E2196F1CE00300CA4 /* LaunchScreen.storyboard in Resources */,
+				18CE9C9B2196F1CE00300CA4 /* Assets.xcassets in Resources */,
+				187E4444219727A6006DEA07 /* MenuInfoCell.xib in Resources */,
+				18CE9C992196F1CC00300CA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE9CA22196F1CE00300CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE9CAD2196F1CE00300CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		654B09261090857F6CEB878D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-elaQ/Pods-elaQ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-elaQ/Pods-elaQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF5A90395E4428D3352742A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-elaQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CE9C882196F1CC00300CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187879112197025000A8AAC9 /* elaqTableViewController.swift in Sources */,
+				187E444C219737ED006DEA07 /* InputViewController.swift in Sources */,
+				1878790D2196FD2100A8AAC9 /* NetWorkUtil.swift in Sources */,
+				187E4446219727C3006DEA07 /* MenuInfoCell.swift in Sources */,
+				18CE9C902196F1CC00300CA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE9CA02196F1CE00300CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187879122197025000A8AAC9 /* elaqTableViewController.swift in Sources */,
+				1878790E2196FD2100A8AAC9 /* NetWorkUtil.swift in Sources */,
+				18CE9CA92196F1CE00300CA4 /* elaQTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE9CAB2196F1CE00300CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187879132197025000A8AAC9 /* elaqTableViewController.swift in Sources */,
+				1878790F2196FD2100A8AAC9 /* NetWorkUtil.swift in Sources */,
+				18CE9CB42196F1CE00300CA4 /* elaQUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CE9CA62196F1CE00300CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE9C8B2196F1CC00300CA4 /* elaQ */;
+			targetProxy = 18CE9CA52196F1CE00300CA4 /* PBXContainerItemProxy */;
+		};
+		18CE9CB12196F1CE00300CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE9C8B2196F1CC00300CA4 /* elaQ */;
+			targetProxy = 18CE9CB02196F1CE00300CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CE9C972196F1CC00300CA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE9C982196F1CC00300CA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CE9C9C2196F1CE00300CA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE9C9D2196F1CE00300CA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CE9CB62196F1CE00300CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CE9CB72196F1CE00300CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CE9CB92196F1CE00300CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35919F2355728E6EEA8A06A6 /* Pods-elaQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8996YKA75V;
+				INFOPLIST_FILE = elaQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.elaQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CE9CBA2196F1CE00300CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208AB683B9713F02EBD09EC6 /* Pods-elaQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8996YKA75V;
+				INFOPLIST_FILE = elaQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.elaQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18CE9CBC2196F1CE00300CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elaQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.elaQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elaQ.app/elaQ";
+			};
+			name = Debug;
+		};
+		18CE9CBD2196F1CE00300CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elaQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.elaQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elaQ.app/elaQ";
+			};
+			name = Release;
+		};
+		18CE9CBF2196F1CE00300CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elaQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.elaQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = elaQ;
+			};
+			name = Debug;
+		};
+		18CE9CC02196F1CE00300CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elaQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.elaQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = elaQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CE9C872196F1CC00300CA4 /* Build configuration list for PBXProject "elaQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE9CB62196F1CE00300CA4 /* Debug */,
+				18CE9CB72196F1CE00300CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CE9CB82196F1CE00300CA4 /* Build configuration list for PBXNativeTarget "elaQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE9CB92196F1CE00300CA4 /* Debug */,
+				18CE9CBA2196F1CE00300CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CE9CBB2196F1CE00300CA4 /* Build configuration list for PBXNativeTarget "elaQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE9CBC2196F1CE00300CA4 /* Debug */,
+				18CE9CBD2196F1CE00300CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CE9CBE2196F1CE00300CA4 /* Build configuration list for PBXNativeTarget "elaQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE9CBF2196F1CE00300CA4 /* Debug */,
+				18CE9CC02196F1CE00300CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CE9C842196F1CC00300CA4 /* Project object */;
+}
